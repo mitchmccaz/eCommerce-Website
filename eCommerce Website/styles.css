@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.header_container{
+    height: 75px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+ }
+.nav_left{
+    list-style:
+    none;
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.page_title{
+    text-align: center;
+    padding: none;
+}
+.header_image{
+    width: 20px;
+    height: 25px;
+}
+.cart{
+    float: right;
+}
+.home_container{
+    font-size:x-large;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid black;
+}
+.home_image{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.top-left-t{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.top-left-m{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+}
+.top-left-b{
+    position: absolute;
+    top: 52px;
+    left: 16px;
+}
+.bottom-right-m{
+    position: absolute;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    bottom: 122px;
+    right: 16px;
+}
+.bottom-right-b{
+    position: absolute;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    bottom: 100px;
+    right: 16px;
+}
+.about_us_container{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.hr_about_us{
+    width: 60%;
+    border: 2px solid black;
+}
+.about_us_big{
+    float: right;
+    width: 275px;
+    height:550px
+;
+    padding-left: 25px;
+}
+.about_us_small{
+    float: left;
+    width: 275px;
+    height:300px;
+    padding-right: 30px;
+}
+.hr_our_products{
+    width: 30%;
+    border: 2px solid black;
+}
+.product_image{
+    width: 275px;
+    height: 240px;
+}
+.hr_product{
+    width: 30%;
+    border: 2px solid black;
+}
+.product_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 70px;
+}
+.add_to_cart_button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.send_button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.footer_container{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #bf7631;
+    justify-content: space-around;
+}
+.nav_left_footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title{
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+}
+.footer_image{
+    width: 45px;
+    height: 45px;
+}
+.nav_right_footer{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link_image{
+    width: 40px;
+    height: 40px;
+}
